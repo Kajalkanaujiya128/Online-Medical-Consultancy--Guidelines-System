@@ -166,6 +166,58 @@ footer-col ul {
     font-size: 14px;
    opacity:0.7;
 }
+
+@media (max-width: 768px) {
+
+    /* Header responsive */
+    header {
+        flex-direction: column;
+        padding: 12px 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        margin: 10px 0 0 0;
+    }
+
+    nav a {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    /* Container spacing fix for mobile */
+    .container {
+        margin: 120px 20px 40px 20px;
+        padding: 10px;
+    }
+
+    /* Card grid more compact */
+    .medicine-list {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 15px;
+    }
+
+    .card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    /* Footer stack */
+    .footer-container {
+        f
+
     </style>
 </head>
 <body>
