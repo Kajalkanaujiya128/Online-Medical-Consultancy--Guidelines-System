@@ -55,5 +55,5 @@ services3.addEventListener("click", function (e) {
 // HOME
 let home3 = document.querySelector(".home3");
 home3.addEventListener("click", function () {
-    window.location.href = "medicine.html";
+    window.location.href = "index.html";
 });

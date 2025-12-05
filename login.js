@@ -24,7 +24,7 @@ if (services1) {
 }
 if (home1) {
     home1.addEventListener("click", function() {
-        window.location.href = "medicine.html";  
+        window.location.href = "index.html";  
     });
 }
 
